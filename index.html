@@ -5,43 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first website</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+    html {font-size: 30px;}</style>
 </head>
 <body>
 
     <header>
-        <h1>Welcome to my&nbsp;first&nbsp;website!</h1>
+        <h1>Welcome to my first&nbsp;website!</h1>
         <a href="contact.html">Contact me</a>
         <!-- <a href="https://www.google.com">Find in Google</a> -->
-        <br>
     </header>
 
-    <article>
-        <h3>This is my first blog post</h3>
-        <p>This is the content of my first blog post</p>
-        <br>
-    </article>
+<div id="main-content">
 
-    <article>
-        <h3>This is my second blog post</h3>
-        <p>This is the content of my second blog &lt;something&gt; post</p>
-        <br> <!-- this tag is used for new line -->
-    </article>
+        <section id="articles">
 
-    <article>
-        <h3>This is my third blog post</h3>
-        <p>This is the <mark>content</mark> of my third blog post. <br> Continue the content after <i>breaking line</i>. <sup class="sup_element" style="color: red">*</sup></p>
-        <small><sup class="sup_element">*</sup>Another sentence</small>
-    </article>
-    
-    <br>
-    <br>
-    <br>
-    <br>
+            <article>
+                <h3>This is my first blog post</h3>
+                <p>This is the content of my first blog post</p>
+            </article>
+        
+            <article>
+                <h3>This is my second blog post</h3>
+                <p>This is the content of my second blog post</p>
+            </article>
+        
+            <article>
+                <h3>This is my third blog post</h3>
+                <p>This is the <mark>content</mark> of my third blog post. <br> Continue the content after <i>breaking line</i>. <sup class="sup_element" style="color: red">*</sup></p>
+                <small><sup class="sup_element">*</sup>Another sentence</small>
+            </article>
 
-    <div> <!-- div is the block element -->
-        My skills
+        </section>
 
-        <table border="1">
+    <div id="skills"> <!-- div is the block element -->
+        <b style="font-size: 34px;color: brown;">My skills</b> 
+
+        <table>
             <tr>
                 <th>Technology</th>
                 <th>Level</th>
@@ -51,16 +51,14 @@
                 <td>4</td>
             </tr>
             <tr>
-                <td>CSS</td>
-                <td>0 :(</td>
+                  <td>CSS</td>
+                <td>good</td>
             </tr>
         </table>
 
     </div>
 
-    <br>
-    <br>
-    <br>
+</div>  
 
     <footer>
         <div>
